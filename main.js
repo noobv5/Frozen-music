@@ -3,13 +3,13 @@ addEventListener('fetch', event => {
 });
 
 // Add your bot token here.
-const BOT_TOKEN = "your bot token here";
+const BOT_TOKEN = "7960417117:AAE0WKIBCtVENA4AogUdUz_iD11FHfwgwbU";
 
 //Pro people: don't change this else your bot will be fucked.
 const API_BASE_URL = "https://metropolitan-loise-vibeshiftbot-f38d853c.koyeb.app";
 
 //Pro people: don't change this else your bot will be fucked.
-const ASSISTANT_ID = "7049510852";
+const ASSISTANT_ID = "6829790680";
 
 
 let songQueue = [];
@@ -352,8 +352,8 @@ async function playSong(chatId, song, processingMsg) {
     if (playResponse.ok) {
       const keyboard = getPlaybackKeyboard();
       keyboard.inline_keyboard.push([
-        { text: "✨ Updates ✨", url: "https://t.me/vibeshiftbots" },
-        { text: "💕 Support 💕", url: "https://t.me/Frozensupport1" }
+        { text: "✨ Updates ✨", url: "https://t.me/Flashfiretools" },
+        { text: "💕 Support 💕", url: "https://t.me/NOOBV3" }
       ]);
       const caption = `**ғʀᴏᴢᴇɴ ✘ ᴍᴜsɪᴄ ση sᴛʀєᴧϻɪηɢ ⏤͟͞●**\n\n` +
                       `**❍ ᴛɪᴛʟє ➥** ${song.title}\n\n` +
@@ -615,8 +615,8 @@ async function handleRequest(request) {
       const buttons = {
         inline_keyboard: [
           [
-            { text: "➕ Add me", url: "https://t.me/vcmusiclubot?startgroup=true" },
-            { text: "💬 Support", url: "https://t.me/Frozensupport1" }
+            { text: "➕ Add me", url: "https://t.me/FlashFireMusicBot?startgroup=true" },
+            { text: "💬 Support", url: "https://t.me/FlashFireMusicBot" }
           ],
           [
             { text: "❓ Help", callback_data: "show_help" }
